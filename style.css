@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 *::selection {
@@ -180,38 +180,279 @@ body {
 
 }
 
+#h {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    font-size: 5vh;
+    padding-bottom: 10px;
+}
+
 #page3 {
-    min-height: 120vh;
+    min-height: 200vw;
+    background-color: #000;
+
+}
+
+#page3-1 {
+    min-height: 50vh;
     width: 100%;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .child {
-    height: 54vh;
-    width: 38vw;
-    /* background-color: red; */
-    /* border: 2px solid #000; */
+    height: 60vh;
+    width: 49vw;
+    overflow: hidden;
+}
+
+.child img {
+    /* padding-left: 200px; */
+    height: 100%;
+    border-radius: 10%;
+}
+
+#page3-2 {
+    min-height: 60vh;
+    width: 100%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 
-.child img {
-    padding-left: 100px;
-    height: 100%;
-}
-
-#h {
+.chooseYourType {
+    height: 40vh;
+    width: 32vw;
+    /* position: relative;
     align-items: center;
     justify-content: center;
-    display: flex;
-    font-size: 5vh;
+    flex-wrap: wrap;
+    overflow: hidden; */
 }
+
+.chooseYourType img {
+    height: 100%;
+    width: auto;
+    border-radius: 2%;
+}
+
+.chooseYourType:hover {
+    cursor: pointer;
+}
+
+#textChooseYourType {
+    padding-top: 20px;
+    font-size: 5vh;
+    color: white;
+}
+
+#page3-3 {
+    min-height: 60vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+#oppoText {
+    font-size: 5vh;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#oppo {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+.oppoChild {
+    min-height: 40vh;
+    width: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.oppoChild .image img {
+    height: 25vw;
+    transition: height 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.oppoChild .oppoInfo {
+    padding-top: 2vh;
+    height: 5vw;
+    color: white;
+    font-size: 1vw;
+    overflow: hidden;
+}
+
+.oppoChild .oppoPrice {
+    padding-top: 2vh;
+    height: 6vw;
+    color: white;
+    font-size: 3vw;
+    overflow: hidden;
+}
+
+.oppoChild .image img:hover {
+    height: 30vw;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+#page3-4 {
+    min-height: 60vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+#onePlustext h2 {
+    font-size: 8vh;
+    padding-top: 100px;
+    color: white;
+}
+
+
+#onePlus {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.onePlusChild {
+    min-height: 40vh;
+    width: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.onePlusChild .image img {
+    height: 25vw;
+    transition: height 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.onePlusChild .onePlusInfo {
+    padding-top: 2vh;
+    height: 5vw;
+    color: white;
+    font-size: 1vw;
+    overflow: hidden;
+}
+
+.onePlusChild .onePlusPrice {
+    padding-top: 2vh;
+    height: 6vw;
+    color: white;
+    font-size: 3vw;
+    overflow: hidden;
+}
+
+.onePlusChild .image img:hover {
+    height: 30vw;
+    transform: translateY(-10px);
+    cursor: pointer;
+
+
+}
+
+
+
+#page3-5 {
+    min-height: 60vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+#appleText h2 {
+    font-size: 8vh;
+    padding-top: 100px;
+    color: white;
+}
+
+
+#apple {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.appleChild {
+    min-height: 40vh;
+    width: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.appleChild .image img {
+    height: 25vw;
+    transition: height 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.appleChild .appleInfo {
+    padding-top: 2vh;
+    height: 5vw;
+    color: white;
+    font-size: 1vw;
+    overflow: hidden;
+}
+
+.appleChild .applePrice {
+    padding-top: 2vh;
+    height: 6vw;
+    color: white;
+    font-size: 3vw;
+    overflow: hidden;
+}
+
+.appleChild .image img:hover {
+    height: 30vw;
+    transform: translateY(-10px);
+    cursor: pointer;
+
+}
+
+
+
 
 
 
@@ -361,9 +602,6 @@ body {
         flex-wrap: wrap;
     }
 
-    #page2 .elem:hover {
-        height: 200vh;
-    }
 
     .child {
         height: 54vh;

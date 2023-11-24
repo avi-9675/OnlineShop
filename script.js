@@ -1,3 +1,5 @@
+
+
 function locomotiveAnimation() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -134,3 +136,16 @@ function cursorAnimation() {
         });
     });
 }
+var tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: "#page3",
+        scroller: ".main",
+        marker: true,
+        start: "top -280%",
+        top: "top -300%",
+        scrub: 3
+    }
+})
+tl.to("#page3", {
+    backgroundColor: "#000"
+})
