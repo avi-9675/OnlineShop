@@ -149,3 +149,7 @@ var tl = gsap.timeline({
 tl.to("#page3", {
     backgroundColor: "#000"
 })
+
+function html1() {
+    window.location.href = "apple.html";
+}
