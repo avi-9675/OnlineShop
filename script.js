@@ -153,3 +153,8 @@ tl.to("#page3", {
 function html1() {
     window.location.href = "apple.html";
 }
+
+function html2() {
+    window.location.href = "android.html";
+}
+
